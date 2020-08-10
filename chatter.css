@@ -1,0 +1,121 @@
+.label {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    min-width: 60px;
+    display: inline-block;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.chatIcon {
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    padding-left: 7px;
+    padding-top: 6px;
+    border: solid 2px black;
+    border-radius: 6px;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.chatIcon:hover {
+    background-color: #ff4;
+}
+
+.caption {
+    display: inline-block;
+    width: 100%;
+    background-color: #00f;
+    color: white;
+    border: none;
+    border-bottom: solid 1px black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.closeIcon {
+    float: right;
+    padding-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sendButton {
+    position: absolute;
+    right: 5px;
+    bottom: 18px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    color: #888;
+}
+
+.chatHost {
+    position: absolute;
+    background-color: #8f5;
+    width: 250px;
+    height: 50%;
+    top: 20%;
+    right: 10px;
+    border: solid 1px black;
+    border-radius: 8px;
+    box-shadow: #bbb 4px 4px;
+    padding: 0;
+}
+
+.message {
+    display: inline-block;
+    width: 90%;
+    padding: 5px;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageHost {
+    position: absolute;
+    top: 35px;
+    bottom: 70px;
+    left: 5px;
+    right: 5px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+
+.answerBox {
+    position: absolute;
+    height: 60px;
+    bottom: 5px;
+    left: 5px;
+    right: 40px;
+    border: solid 1px black;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.sender, .recipient {
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.sender {
+    color: red;
+}
+
+.recipient {
+    color: blue;
+}
